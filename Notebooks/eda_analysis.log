@@ -1,0 +1,36 @@
+2025-01-24 17:39:26,311:INFO:Started EDA overview
+2025-01-24 17:39:26,311:INFO:Number of rows: 95662
+2025-01-24 17:39:26,311:INFO:Number of columns: 16
+2025-01-24 17:39:26,313:INFO:Data Types:
+2025-01-24 17:39:26,316:INFO:TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+2025-01-24 17:39:26,318:INFO:Completed EDA overview
+2025-01-24 17:39:50,609:INFO:Started analyzing credit scoring
+2025-01-24 17:39:50,609:INFO:Computing summary statistics
+2025-01-24 17:39:50,653:INFO:Completed analysis
+2025-01-24 17:40:38,058:INFO:Started visualizing numerical feature distribution
+2025-01-24 17:40:41,322:INFO:Completed visualization
+2025-01-24 17:42:30,510:INFO:Started analyzing categorical feature distribution
+2025-01-24 17:42:36,344:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-24 17:42:36,719:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-01-24 17:43:19,914:INFO:Completed analysis
+2025-01-24 17:44:29,243:INFO:Started correlation analysis
+2025-01-24 17:44:29,481:INFO:Completed correlation analysis
+2025-01-24 17:45:40,247:INFO:Started identifying missing values
+2025-01-24 17:45:40,292:INFO:No missing values found in the dataset.
+2025-01-24 17:46:53,179:INFO:Started outlier detection
+2025-01-24 17:46:54,774:INFO:Completed outlier detection
